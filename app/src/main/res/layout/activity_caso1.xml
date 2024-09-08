@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Caso1">
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="250dp"
+      android:layout_height="63dp"
+      android:layout_marginTop="40dp"
+      android:fontFamily="monospace"
+      android:text="Remuneracion por Empleado"
+      android:textAlignment="center"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.44"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="104dp"
+      android:layout_height="21dp"
+      android:text="Ingreso básico"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.197" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="109dp"
+      android:layout_height="19dp"
+      android:text="Número de hijos"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.287" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="49dp"
+      android:layout_height="24dp"
+      android:text="Cargo"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.127"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.367" />
+
+  <EditText
+      android:id="@+id/editTextNumber"
+      android:layout_width="264dp"
+      android:layout_height="42dp"
+      android:ems="10"
+      android:inputType="number"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.891"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.278" />
+
+  <EditText
+      android:id="@+id/editTextText"
+      android:layout_width="263dp"
+      android:layout_height="45dp"
+      android:ems="10"
+      android:inputType="text"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.891"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.188" />
+
+  <CheckBox
+      android:id="@+id/checkBoxEmpleado"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Empleado"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.875"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.361" />
+
+  <CheckBox
+      android:id="@+id/checkBoxObrero"
+      android:layout_width="99dp"
+      android:layout_height="47dp"
+      android:text="Obrero"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.362" />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#C51162"
+      android:text="@string/Calcular"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.229"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.73" />
+
+  <Button
+      android:id="@+id/button5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/Volver"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.859"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.73" />
+
+  <TextView
+      android:id="@+id/textView19"
+      android:layout_width="371dp"
+      android:layout_height="107dp"
+      android:text="TextView"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.4"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

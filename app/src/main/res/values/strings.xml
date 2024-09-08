@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">5 Casos Practicos</string>
+    <string name="Caso1"> Caso 1</string>
+    <string name="Caso2"> Caso 2</string>
+    <string name="Caso3"> Caso 3</string>
+    <string name="Caso4"> Caso 4</string>
+    <string name="Caso5"> Caso 5</string>
+    <string name="Calcular"> Calcular</string>
+    <string name="Volver"> Regresar al Inicio</string>
+    <string-array name="spinner_items">
+        <item>Opción 1</item>
+        <item>Opción 2</item>
+        <item>Opción 3</item>
+    </string-array>
+
+</resources>
